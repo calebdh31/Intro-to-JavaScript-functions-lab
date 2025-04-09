@@ -16,7 +16,7 @@ const maxOfTwoNumbers = (x, y) => {
     }
   }
   
-  // console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
+console.log('Exercise 1 Result:', maxOfTwoNumbers(3, 9));
 
 
   /*
@@ -37,7 +37,7 @@ function isAdult(age) {
     }
 }
 
-// console.log('Exercise 2 Result:', isAdult(21));
+console.log('Exercise 2 Result:', isAdult(21));
 
 
 /*
@@ -63,7 +63,7 @@ function isCharAVowel(char) {
 }
 }
 
- // console.log('Exercise 3 Result:', isCharAVowel("a"));
+ console.log('Exercise 3 Result:', isCharAVowel("a"));
 
 
 
@@ -84,7 +84,7 @@ function generateEmail(name, domain) {
     return `${name}@${domain}`;
 }
 
-// console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
+console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
 
 
 
@@ -105,7 +105,7 @@ function greetUser(name, timeOfDay) {
     return `Good ${timeOfDay}, ${name}!`
 }
 
-// console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
+console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
 
 
 
@@ -132,7 +132,7 @@ function maxOfThree(a, b, c) {
 }
 }
 
-// console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
+console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
 
 
 
@@ -153,7 +153,7 @@ function calculateTip(billAmounnt, tipPercentage) {
     return (billAmounnt * tipPercentage) / 100;
 }
 
-// console.log('Exercise 7 Result:', calculateTip(50, 20));
+console.log('Exercise 7 Result:', calculateTip(50, 20));
 
 
 
@@ -181,7 +181,7 @@ function convertTemperature(temp, scale) {
     }
 }
 
-// console.log('Exercise 8 Result:', convertTemperature(32, "F"));
+console.log('Exercise 8 Result:', convertTemperature(32, "F"));
 
 
 /*
@@ -218,4 +218,4 @@ function basicCalculator(num1, num2, operation) {
     }
 }
 
-// console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
+console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
